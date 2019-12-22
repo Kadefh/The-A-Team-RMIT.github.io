@@ -1,8 +1,46 @@
-body {
+body, html {
     background: black;
     font-family: Calibri;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 48px;
 }
 
 h1 {
+    color:white;
+}
+
+.navigation {
+    background-color: rgb(64, 64, 64);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 12px 5px rgba(64, 64, 64, 0.5);
+}
+
+.navigation a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 48px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.navigation a.active {
+    background-color: rgb(87, 133, 161);
     color:white;
 }
