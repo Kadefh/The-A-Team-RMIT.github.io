@@ -41,6 +41,6 @@ h1 {
 }
 
 .navigation a.active {
-    background-color: rgb(87, 133, 161);
+    background-color: rgb(124, 124, 124);
     color:white;
 }
